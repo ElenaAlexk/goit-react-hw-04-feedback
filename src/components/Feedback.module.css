@@ -1,0 +1,32 @@
+.feedbackWrapper {
+  max-width: 1170px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.btnFeedback {
+  display: block;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.btnFeedback:hover {
+  background-color: cadetblue;
+  transform: scale(1.1);
+}
+
+.counter {
+  font-size: 18px;
+  font-weight: 600;
+}
